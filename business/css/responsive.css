@@ -1,0 +1,512 @@
+/*Small Device version*/
+@media (min-width:320px) and (max-width:576px) {
+    .navbar-toggler {
+        display: none;
+    }
+
+    #sidebarmenu {
+        position: absolute;
+        top: 0;
+        right: 0;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        height: 100%;
+    }
+
+    .hero_area::after {
+        width: 100%;
+        right: 0;
+        background-position: center;
+    }
+
+    .curb_heading {
+        padding-top: 0%;
+        padding-bottom: 28px;
+    }
+
+    .curb_heading h1 {
+        padding-left: 0;
+        font-size: 50px;
+    }
+
+    #ab1 {
+        padding: 0;
+    }
+
+    .about_thumb img {
+        padding: 20px;
+    }
+
+    .product_area .owl-prev {
+        margin-right: 13px;
+    }
+
+    .contact_product_content p {
+        padding-top: 0 !important;
+        padding: 0 24px;
+    }
+
+    #btn1 {
+        margin-left: 0;
+    }
+
+    .overlay input[type="text"] {
+        width: 74%;
+    }
+
+    .overlay button {
+        width: auto;
+    }
+
+    .about_area {
+        padding: 90px 0 50px 0;
+    }
+
+    .hero_area a.btn2 {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .hero_content h1 {
+        font-size: 31px;
+    }
+
+    #ab2 .about_content h4 {
+        font-size: 24px;
+    }
+
+    .footer_content h2,
+    .contact_form h2 {
+        width: 100%;
+        padding-left: 25px;
+        font-size: 29px;
+    }
+
+    .container.border_tb {
+        padding: 33px 0;
+    }
+
+    .about_title h4 {
+        font-size: 25px;
+        padding: 0 11px;
+        padding-right: 0;
+        line-height: 36px;
+        margin-bottom: 20px;
+    }
+
+    .about_content h4 {
+        font-size: 29px;
+    }
+
+    .about_content {
+        padding: 50px 16px;
+    }
+
+    .product_area::before {
+        top: -66px;
+    }
+
+    .owl-nav {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        margin-top: 22px;
+    }
+
+    .product_area {
+        padding: 50px 0 60px 0;
+    }
+
+    .thumb_one img {
+        height: auto;
+    }
+
+    .single_testimonials_review {
+        display: block !important;
+    }
+
+    .single_testimonials_content {
+        margin-left: 0;
+    }
+
+    .testimonials_profile {
+        width: 100%;
+    }
+
+    .single_testimonials_content::before {
+        display: none;
+    }
+
+    .single_testimonials_content h2 {
+        margin-bottom: 20px;
+        text-align: center;
+        padding-top: 43px;
+    }
+
+    .footer_content h2,
+    .contact_form h2 {
+        width: 100%;
+        padding-left: 25px;
+    }
+
+    .footer_content ul {
+        list-style: none;
+        margin: 0;
+        padding: 0 29px;
+    }
+
+    .footer_content ul li {
+        font-size: 16px;
+        margin-bottom: 8px;
+    }
+
+    .investment {
+        font-size: 18px !important;
+    }
+
+    #footer_contact .form-row {
+        padding: 0 22px;
+    }
+
+    .footer_area::before,
+    .footer_area::after {
+        display: none;
+    }
+
+
+    .copyright {
+        padding: 18px 7px;
+    }
+
+    .copyright p {
+        font-size: 15px;
+    }
+
+    .contact_form button {
+        margin-left: 23px;
+    }
+
+
+}
+
+/*Small Device version*/
+@media (min-width:576px) and (max-width:768px) {
+    .navbar-toggler {
+        display: none;
+    }
+
+    #sidebarmenu {
+        position: absolute;
+        top: 0;
+        right: 0;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        height: 100%;
+    }
+
+    .hero_content h1 {
+        font-size: 50px;
+    }
+
+    .hero_area::after {
+        width: 100%;
+        right: 0;
+        background-position: center;
+    }
+
+    .thumb_one img {
+        height: auto;
+    }
+
+    .footer_content h2,
+    .contact_form h2 {
+        font-size: 34px;
+        width: 100%;
+        padding-bottom: 22px;
+    }
+
+    .footer_content ul li {
+        font-size: 16px;
+    }
+
+    .investment {
+        font-size: 16px !important;
+    }
+
+    .owl-nav {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        margin-top: 22px;
+    }
+
+    .product_area {
+        padding: 50px 0 60px 0;
+    }
+
+    .single_testimonials_review {
+        display: -webkit-box !important;
+        display: -ms-flexbox !important;
+        display: flex !important;
+        margin: 0 auto;
+        -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+        justify-content: center !important;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+    .single_testimonials_content {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .single_testimonials_content::before {
+        z-index: -1;
+    }
+
+    .single_testimonials_content h2 {
+        margin-bottom: 8px;
+        padding-top: 34px;
+    }
+
+    .single_testimonials_content p {
+        padding-bottom: 22px;
+    }
+
+    .overlay button {
+        width: 12%;
+    }
+
+    .about_title h4 {
+        font-size: 30px;
+        padding-right: 0;
+    }
+
+    .about_area {
+        padding: 70px 0 105px 0;
+    }
+
+    .footer_content {
+        padding-left: 10px;
+    }
+
+    .contact_form {
+        padding-right: 13px;
+    }
+
+    .curb_heading {
+        padding-top: 0;
+    }
+
+    .curb_heading h1 {
+        padding-left: 0;
+        font-size: 60px;
+        margin-bottom: 50px;
+    }
+
+    .single_product_content {
+        text-align: center;
+    }
+
+    .single_product_content h4 {
+        padding-left: 0;
+        font-size: 20px;
+    }
+
+    .single_product_content p {
+        padding-left: 0;
+    }
+
+    .contact_product_content p {
+        padding: 0 !important;
+    }
+
+}
+
+/*tab device*/
+@media (min-width:768px) and (max-width:991px) {
+    .navbar-toggler {
+        display: none;
+    }
+
+    #sidebarmenu {
+        position: absolute;
+        top: 0;
+        right: 0;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        height: 100%;
+    }
+
+    .hero_content h1 {
+        font-size: 51px;
+    }
+
+    .about_title h4 {
+        font-size: 28px;
+        padding-right: 0;
+    }
+
+    .about_content h4 {
+        font-size: 28px;
+    }
+
+    .owl-nav {
+        position: absolute;
+        top: -132px;
+        right: 0;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
+
+    .thumb_one img {
+        height: auto;
+    }
+
+    .single_testimonials_content h2 {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+
+    .testimonials_profile::before,
+    .testimonials_profile::after {
+        display: none;
+    }
+
+    .footer_content {
+        padding: 0 23px;
+    }
+
+    .footer_content h2,
+    .contact_form h2 {
+        font-size: 35px;
+        width: auto;
+        padding-bottom: 28px;
+    }
+
+    .investment {
+        font-size: 18px !important;
+    }
+
+    .testimonials .owl-dots {
+        left: 36%;
+    }
+
+    .curb_heading h1 {
+        padding-left: 5%;
+        font-size: 59px;
+    }
+
+    .single_product_content h4 {
+        margin-top: 26px;
+        padding-left: 0;
+        font-size: 24px;
+    }
+
+    .single_product_content p {
+        padding-left: 0;
+    }
+
+    #product_title_0 {
+        padding-bottom: 0;
+    }
+
+    .contact_product_content p {
+        padding: 0 !important;
+    }
+
+
+}
+
+/*laptop device*/
+@media (min-width:991px) and (max-width:1200px) {
+    .hero_content h1 {
+        font-size: 54px;
+    }
+
+    .about_title h4 {
+        font-size: 38px;
+        padding-right: 0;
+    }
+
+    .about_content h4 {
+        font-size: 34px;
+    }
+
+    .owl-nav {
+        position: absolute;
+        top: -132px;
+        right: 0;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
+
+    .thumb_one img {
+        font-size: ;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        height: 591px;
+    }
+
+    .footer_content {
+        padding: 0 20px;
+    }
+
+    .contact_form {
+        padding: 0 26px;
+    }
+
+    .curb_heading h1 {
+        padding-left: 3%;
+        font-size: 60px;
+    }
+
+    #product_title_0 {
+        padding-bottom: 0;
+    }
+
+
+}

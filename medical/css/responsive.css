@@ -1,0 +1,610 @@
+@media (min-width:320px) and (max-width:576px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .sidebar_menu_bar {
+        display: block;
+        position: absolute;
+        top: 28px;
+        right: 15px;
+        color: #007aff;
+    }
+
+    .navbar-toggler:not(:disabled):not(.disabled) {
+        display: none;
+    }
+
+    .header_contact {
+        display: block;
+    }
+
+    .sm-none {
+        display: none;
+    }
+
+    .hero_area {
+        background: url('../images/header/03.png') no-repeat;
+        background-size: cover;
+        background-position: center right;
+        z-index: 2;
+        padding: 0;
+    }
+
+    .hero_area:before {
+        position: absolute;
+        content: "";
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.5);
+        top: 0;
+        z-index: -1;
+    }
+
+    .hero_content {
+        padding-bottom: 83px;
+        padding-top: 54px;
+    }
+
+    .hero_content h1 {
+        font-size: 44px;
+        width: 100%;
+    }
+
+    .hero_content p {
+        width: 100%;
+    }
+
+    a.btn2 {
+        margin-left: 0;
+        margin-top: 20px;
+        padding: 14px 35px;
+    }
+
+    .services_heading {
+        margin-top: 0;
+        padding-top: 25px;
+    }
+
+    .services_heading h2 {
+        font-size: 30px;
+        width: 100%;
+    }
+
+    .services_area .owl-nav {
+        top: inherit !important;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .single_services {
+        margin-top: 40px;
+    }
+
+    .about_content {
+        padding-left: 0;
+        padding-top: 65px;
+    }
+
+    .about_content h2 {
+        font-size: 30px;
+        padding-right: 0;
+        padding-bottom: 19px;
+    }
+
+    .about_area {
+        padding-bottom: 200px;
+    }
+
+    .about_thumb {
+        margin-top: 18px;
+    }
+
+    .about_thumb::before {
+        height: 93%;
+        top: 50px;
+        left: -12px;
+    }
+
+    .department_area::before {
+        top: -190px;
+    }
+
+    .department_heading h2 {
+        font-size: 30px;
+    }
+
+    .department_heading {
+        padding-bottom: 40px;
+    }
+
+    .department_area .owl-nav {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+
+    .team_area .department_heading {
+        width: 100%;
+        margin-bottom: 8px;
+    }
+
+    a.btn1 {
+        padding: 14px 35px;
+    }
+
+    .testimonials_content {
+        width: 100%;
+    }
+
+    .testimonials {
+        padding-top: 24px;
+    }
+
+    .team_profile h6 {
+        padding-bottom: 30px;
+        font-size: 20px;
+    }
+
+    .team_profile h6 span {
+        padding-top: 1px;
+    }
+
+    .couning {
+        display: block;
+    }
+
+    .single_count {
+        margin-bottom: 30px;
+    }
+
+    .footer_shutcut_link.p-20 {
+        padding-left: 0;
+        margin: 20px 0;
+    }
+
+    .footer_shutcut_link.pl {
+        padding-left: 0;
+    }
+
+    .footer_shutcut_link h6 {
+        padding-bottom: 16px;
+    }
+
+    .footer_content {
+        padding-bottom: 20px;
+    }
+
+    #footer_blog_section {
+        padding: 45px 0;
+    }
+
+    .curb_area {
+        height: 350px;
+    }
+
+    .curb_content {
+        margin-top: -98px;
+    }
+
+    .curb_content h2 {
+        font-size: 40px;
+    }
+
+    #ab1 .about_thumb::before {
+        left: -25px;
+    }
+
+    #wrap_0 {
+        padding: 0;
+        margin-top: 0%;
+    }
+
+    .inner_about {
+        padding-bottom: 35px;
+    }
+
+}
+
+/*Small Device*/
+@media (min-width:576px) and (max-width:768px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .sidebar_menu_bar {
+        display: block;
+        position: absolute;
+        top: 28px;
+        right: 15px;
+        color: #007aff;
+    }
+
+    .navbar-toggler:not(:disabled):not(.disabled) {
+        display: none;
+    }
+
+    .header_contact {
+        display: block;
+    }
+
+    .sm-none {
+        display: none;
+    }
+
+    .hero_area {
+        background-position: center;
+    }
+
+    .hero_content h1 {
+        font-size: 75px;
+        width: 100%;
+    }
+
+    .hero_content p {
+        width: 100%;
+    }
+
+    .services_heading h2 {
+        width: 68%;
+    }
+
+    .about_thumb img {
+        width: auto;
+    }
+
+    .about_content {
+        padding-left: 0;
+        padding-top: 70px;
+    }
+
+    .about_area {
+        padding-bottom: 215px;
+    }
+
+    .department_area .owl-nav {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        margin-top: 0px;
+    }
+
+    .team_area .department_heading {
+        width: 100%;
+    }
+
+    .single_team img {
+        width: 100%;
+    }
+
+    .team_profile {
+        text-align: center;
+    }
+
+    .team_profile h6 {
+        text-align: left;
+    }
+
+    .testimonials_content {
+        width: 100%;
+    }
+
+    .testimonials {
+        padding: 60px 0;
+    }
+
+    .footer_content p {
+        padding: 19px 0 40px 0;
+    }
+
+    .footer_shutcut_link.p-20 {
+        padding-left: 0;
+        margin-top: 30px;
+    }
+
+    .footer_shutcut_link.pl {
+        padding-left: 0;
+        margin-top: 30px;
+    }
+
+    #footer_blog_section {
+        padding: 60px 0px;
+    }
+
+    .curb_area {
+        height: 390px;
+        background-position: center !important;
+    }
+
+    .curb_content {
+        margin-top: -120px;
+    }
+
+    #ab1 .about_thumb {
+        margin-top: 0;
+    }
+
+    .inner_about {
+        padding-bottom: 25px;
+    }
+
+    #wrap_0 {
+        padding: 0;
+        margin-top: 0;
+    }
+
+    #ab1 .about_thumb {
+        margin-left: 30px;
+    }
+
+    .curb_content h2 {
+        font-size: 72px;
+    }
+
+    .team_area a.btn1 {
+        padding: 16px 34px;
+    }
+
+    .team_profile {
+        padding: 34px 0px;
+    }
+
+    .team_profile h6 {
+        font-size: 20px;
+        padding-left: 10px;
+    }
+
+    .team_profile h6 span {
+        font-size: 17px;
+        padding-right: 12px;
+    }
+
+    .services_heading {
+        margin-top: -170px;
+    }
+}
+
+/*medium Device*/
+@media (min-width:768px) and (max-width:991px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .sidebar_menu_bar {
+        display: block;
+        position: absolute;
+        top: 28px;
+        right: 15px;
+        color: #007aff;
+    }
+
+    .navbar-toggler:not(:disabled):not(.disabled) {
+        display: none;
+    }
+
+    .header_contact {
+        display: block;
+    }
+
+    .sm-none {
+        display: none;
+    }
+
+    .hero_area {
+        padding: 100px 0;
+        background-position: center;
+    }
+
+    .hero_content h1 {
+        width: 96%;
+    }
+
+    .services_heading h2 {
+        width: 60%;
+    }
+
+    .about_content {
+        padding-left: 12px;
+    }
+
+    .about_area {
+        padding-bottom: 250px;
+    }
+
+    .services_area::after {
+        top: 27%;
+    }
+
+    .about_content h2 {
+        font-size: 33px;
+        padding-right: 0;
+        padding-bottom: 20px;
+    }
+
+    .department_area .owl-nav {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        margin-top: 0px;
+    }
+
+    .team_area .department_heading {
+        width: 70%;
+    }
+
+    .team_area a.btn1 {
+        padding: 16px 50px;
+
+    }
+
+    .testimonials {
+        padding-top: 15px;
+    }
+
+    .testimonials_content {
+        width: 70%;
+    }
+
+    .footer_shutcut_link.p-20 {
+        padding-left: 0;
+    }
+
+    .footer_content p {
+        padding: 15px 4px 40px 0;
+    }
+
+    .footer_shutcut_link.pl {
+        padding-left: 0;
+        padding-top: 25px;
+    }
+
+    #footer_blog_section {
+        padding-bottom: 70px;
+    }
+
+    .curb_area {
+        height: 400px;
+        background-position: center !important;
+    }
+
+    .curb_content {
+        margin-top: -128px;
+    }
+
+    #wrap_0 {
+        padding: 0 6px 0 0;
+        margin-top: 0;
+    }
+
+    .inner_about {
+        padding-bottom: 80px;
+    }
+
+    #ab1 .about_thumb {
+        margin-left: 0;
+        margin-top: 0;
+    }
+
+    #wrap_1 {
+        margin-top: 8%;
+    }
+
+    #inner_department::after {
+        top: 48%;
+    }
+
+    #inner_department {
+        margin-bottom: 29px;
+    }
+}
+
+/*Large device*/
+@media (min-width:991px) and (max-width:1200px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .navbar-nav li {
+        margin-right: 28px;
+    }
+
+    .navbar-nav li a {
+        font-size: 16px;
+    }
+
+    .header_contact a {
+        font-size: 16px;
+    }
+
+    .hero_area {
+        background-position: center;
+    }
+
+    .services_area::before {
+        top: -63%;
+    }
+
+    .about_content h2 {
+        font-size: 36px;
+        padding-right: 0;
+    }
+
+    .department_area .owl-nav {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        margin-top: 0px;
+    }
+
+    .footer_shutcut_link.pl {
+        padding-left: 40px;
+    }
+
+    .footer_content p {
+        padding: 15px 78px 40px 0;
+    }
+
+    #footer_blog_section {
+        padding: 90px 0;
+    }
+
+    .curb_area {
+        background-position: center !important;
+    }
+
+    #services_area::after {
+        top: 76%;
+    }
+
+    .team_area .team_profile h6 {
+        font-size: 20px;
+    }
+
+    .team_area a.btn1 {
+        padding: 16px 35px;
+    }
+
+    .team_profile h6 {
+        text-align: left;
+    }
+
+    .team_profile {
+        text-align: center;
+    }
+
+    #wrap_0 {
+        margin-top: 56px;
+    }
+
+}
+
+@media (min-width:1200px) and (max-width:1800px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .hero_area {
+        background-position: center;
+    }
+
+    .curb_area {
+        background-position: center !important;
+    }
+}

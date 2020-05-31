@@ -1,0 +1,633 @@
+@media (min-width:320px) and (max-width:576px) {
+    body{
+        overflow-x:hidden !important;
+    }
+    .logo {
+        margin-left: 0;
+    }
+
+    .about_content{
+        padding-left:0;
+    }
+    
+    .sidebar_menu {
+        right: 18px;
+        top: -38px;
+    }
+
+    .banner_content h1 {
+        font-size: 60px;
+    }
+
+    .banner {
+        height: 739px;
+        background-position: center;
+    }
+
+    .banner_content input {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .banner_content button {
+        right: 16px;
+        width: 90%;
+        top: 100%;
+    }
+
+    .singer_scoials {
+        bottom: 110px;
+    }
+
+    .banner_content input {
+        padding: 22px 20px;
+    }
+
+    .mlf {
+        margin-left: 0;
+    }
+
+    .about_thumb {
+        display: block;
+    }
+
+    .single_about {
+        width: 100%;
+        top: 0;
+        position: inherit;
+        padding: 88px 36px 91px 36px;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .about_thumb {
+        margin-bottom: 20px;
+    }
+
+    .about_thumb img {
+        margin-bottom: 20px;
+    }
+
+    .album_thumb {
+        padding-left: 0;
+    }
+
+    .album_overlay {
+        right: 0;
+        top: inherit;
+        left: 0;
+    }
+
+    .album_figure::before {
+        bottom: 0;
+        top: inherit;
+        left: 0;
+    }
+
+    .event_content h1 {
+        font-size: 45px;
+    }
+
+    .event_content {
+        margin-bottom: 30px;
+    }
+
+    .event_area img {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .img-fluid.thumb_right {
+        position: inherit;
+        width: 100%;
+    }
+
+    .img-fluid.mt-50 {
+        margin-top: 0;
+        margin-left: 0;
+    }
+
+    .contact_here h1 {
+        font-size: 50px;
+    }
+
+    .event_area {
+        padding: 20px 0 28px 0;
+    }
+
+    .container.contact_bg::before {
+        top: 42px;
+        font-size: 97px;
+        left: 0;
+    }
+
+    .contact_here .btn1 {
+        margin: 30px auto;
+        width: 84%;
+    }
+
+    .navigation ul li a:hover {
+        color: #000;
+    }
+
+    .navigation ul li {
+        float: inherit;
+        margin-bottom: 20px;
+    }
+
+    .navigation ul li:last-child {
+        float: inherit;
+        margin-bottom: 0px;
+    }
+
+    .curb_title h1 {
+        font-size: 40px;
+    }
+
+    element {
+        height: 400px;
+    }
+
+    .curb {
+        height: 294px;
+    }
+
+    .about_inner {
+        padding: 0;
+    }
+
+    .title_inner h1 {
+        font-size: 60px;
+    }
+
+    .about_inner_content h1 {
+        font-size: 45px;
+    }
+
+    .inner_event_area img {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .single_about1 {
+        position: inherit;
+        width: 100%;
+        top: 0;
+        left: 0;
+    }
+
+    .inner_event_area {
+        padding: 0 0 30px 0;
+    }
+
+    .footer {
+        padding: 60px 0 72px 0;
+    }
+
+    .album_figure1::before {
+        right: 0;
+        bottom: 0;
+    }
+
+    .album_overlay1 {
+        bottom: 0;
+        right: 0;
+    }
+
+    .hero_album::before {
+        top: -42px;
+        font-size: 73px;
+        left: 0;
+    }
+
+    #album1 .hero_album::before {
+        right: 0;
+        left: 0;
+    }
+
+    #album {
+        padding-bottom: 40px;
+    }
+
+    #single_about {
+        padding: 57px 44px;
+    }
+
+    .all_event_time.cd100 div span.days,
+    span.hours,
+    span.minutes,
+    span.seconds {
+        font-size: 24px !important;
+    }
+
+    .single_event_time a.buy {
+        padding: 7px 0;
+        top: 66%;
+    }
+
+    .all_event_time.cd100 div span {
+        font-size: 15px;
+    }
+
+    #event_area {
+        padding: 40px 0;
+    }
+
+    .contact_form {
+        padding: 57px 10px;
+    }
+
+    .get_contact {
+        padding-left: 0;
+        margin-top: 5%;
+    }
+
+
+}
+
+/*small device*/
+@media (min-width:576px) and (max-width:768px) {
+    .logo {
+        margin-left: 0;
+    }
+
+    .sidebar_menu {
+        right: 18px;
+        top: -38px;
+    }
+
+    .banner {
+        background-position: center;
+    }
+
+    .singer_scoials {
+        top: -120px;
+    }
+
+    .about {
+        padding-top: 0 !important;
+    }
+
+    .mlf {
+        margin-left: 0;
+        margin-right: 38px;
+    }
+
+    .single_about {
+        position: inherit;
+        top: -120px;
+        left: 0;
+        right: 0;
+    }
+
+    .hero_album::before {
+        font-size: 113px;
+        left: -34px;
+    }
+
+    .concert_content {
+        padding-left: 0;
+        margin-top: 5%;
+    }
+
+    .event_content {
+        margin-bottom: 10%;
+    }
+
+    .img-fluid.thumb_right {
+        position: inherit;
+        right: 0;
+    }
+
+    .img-fluid.mt-50 {
+        margin-top: 25px;
+        margin-left: 0;
+    }
+
+    .container.contact_bg::before {
+        top: 63px;
+        font-size: 163px;
+        left: 0;
+    }
+
+    .contact_here .btn1 {
+        width: 60%;
+    }
+
+    .contact_bg {
+        padding: 110px 0 80px 0;
+    }
+
+    .curb_title h1 {
+        font-size: 70px;
+    }
+
+    .about_inner {
+        padding: 0;
+    }
+
+    .title_inner h1 {
+        font-size: 70px;
+    }
+
+    .single_about1 {
+        position: inherit;
+        top: -140px;
+        width: 62%;
+        right: 0;
+        margin-bottom: 0;
+        margin: 0 auto;
+    }
+
+    .inner_event_area {
+        padding: 0 0 0px 0;
+    }
+
+    #album .hero_album::before {
+        top: -41px;
+        left: 0;
+    }
+
+    #event_timing_session {
+        padding: 7% 0;
+    }
+
+    #event_area {
+        padding: 40px 0;
+    }
+
+    .get_contact {
+        padding-left: 0;
+        padding-top: 5%;
+    }
+
+    .contact_us_title h1 {
+        font-size: 146px;
+    }
+
+}
+
+/*medium device*/
+@media (min-width:768px) and (max-width:991px) {
+    .logo {
+        margin-left: 0;
+    }
+
+    .sidebar_menu {
+        right: 40px;
+        top: -38px;
+    }
+
+    .banner {
+        background-position: center;
+    }
+
+    .banner_content button {
+        right: 143px;
+    }
+
+    .concert_content h1 {
+        font-size: 39px;
+    }
+
+    .concert_video_thumb {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        height: 100%;
+    }
+
+    .concert_content {
+        padding-left: 5%;
+    }
+
+    .event_content h1 {
+        font-size: 39px;
+    }
+
+    .img-fluid.thumb_right {
+        right: -14%;
+    }
+
+    .img-fluid.mt-50 {
+        margin-top: -20%;
+        margin-left: 14%;
+    }
+
+    .contact_here .btn1 {
+        width: 60%;
+    }
+
+    .container.contact_bg::before {
+        top: 95px;
+        font-size: 180px;
+        left: 0;
+    }
+
+    .hero_album::before {
+        top: -73px;
+        font-size: 164px;
+        left: -34px;
+    }
+
+    .about {
+        padding: 40px 0px;
+    }
+
+    .singer_scoials {
+        top: -100px;
+    }
+
+    .title_inner {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        height: 100%;
+    }
+
+    .title_inner h1 {
+        font-size: 113px;
+    }
+
+    .about_inner_content h1 {
+        font-size: 39px;
+    }
+
+    .about_inner_content p {
+        padding-right: 0;
+    }
+
+    .about_inner {
+        padding: 60px 0;
+    }
+
+    .single_about1 {
+        top: 17px;
+        right: 0;
+        left: 19px;
+    }
+
+    .inner_event_area img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .img-fluid.thumb_right {
+        right: -9%;
+    }
+
+    .inner_event_area {
+        padding: 0 0 70px 0;
+    }
+
+    .inner_event_area .event_content p {
+        padding-right: 16px;
+    }
+
+    #album .hero_album::before {
+        font-size: 139px;
+        left: 0;
+    }
+
+    #album1 .hero_album::before {
+        left: 0;
+        font-size: 112px;
+        top: 0;
+    }
+
+    #single_about h4 {
+        padding: 15px 18px;
+    }
+
+    .all_event_time {
+        padding: 20% 5px;
+        padding-top: 0;
+    }
+
+    .all_event_time.cd100 div span.days,
+    span.hours,
+    span.minutes,
+    span.seconds {
+        font-size: 35px !important;
+    }
+
+    .single_event_time a.buy {
+        width: 72%;
+    }
+
+    #event_area {
+        padding: 40px 0;
+    }
+
+    .get_contact h1 {
+        font-size: 40px;
+    }
+
+    .contact_form {
+        padding: 57px 30px;
+    }
+
+}
+
+/*large device*/
+@media (min-width:991px) and (max-width:1200px) {
+    .about .mlf {
+        margin-left: 0;
+        margin-right: 30px;
+    }
+
+    .single_about {
+        width: 70%;
+        left: 0;
+        right: 0;
+    }
+
+    .concert_video_thumb {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        height: 100%;
+    }
+
+    .concert_content {
+        padding-left: 4%;
+    }
+
+    .img-fluid.thumb_right {
+        right: -12%;
+    }
+
+    .img-fluid.mt-50 {
+        margin-top: -24%;
+        margin-left: 13%;
+    }
+
+    .container.contact_bg::before {
+        top: 98px;
+        font-size: 197px;
+        left: 0;
+    }
+
+    .singer_scoials {
+        top: -85px;
+    }
+
+
+    .banner {
+        background-position: center;
+    }
+
+    .banner_content button {
+        right: 25px;
+    }
+
+    .banner_content input {
+        width: 71%;
+    }
+
+    .title_inner h1 {
+        font-size: 149px;
+    }
+
+    .single_about1 {
+        padding: 70px 21px;
+        top: -118px;
+        right: -47%;
+    }
+
+    .inner_event_area {
+        padding: 0 0 200px 0;
+    }
+
+    #album .hero_album::before {
+        font-size: 150px;
+        left: 0;
+    }
+
+
+
+
+
+
+}

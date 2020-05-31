@@ -1,0 +1,191 @@
+/*Small devices (landscape phones, 576px and up)*/
+@media (max-width: 768px) {
+    .rct_address_wrap {
+        display: block;
+    }
+
+    .rmt_contact ul {
+        display: block;
+    }
+
+    #sidemenuarea {
+        display: block;
+        position: absolute;
+        right: 12px;
+        top: 20px;
+    }
+    .primary_menu {
+        display: none;
+    }
+    .hero_section {
+        height: 790px !important;
+        display: block;
+    }
+
+
+
+    .single_hero {
+        width: 100%;
+        margin-left: 22px;
+    }
+
+    .single_hero h2 {
+        font-size: 26px;
+    }
+
+    .single_hero a {
+        margin-top: 12px;
+    }
+
+    .single_hero p {
+        padding-right: 10px;
+    }
+
+    .swiper-pagination {
+        display: none;
+    }
+
+    .single_service {
+        margin-right: 0;
+        margin-top: 30px;
+    }
+
+    .rmt_service_wrap {
+        display: block;
+    }
+
+    .services_area.p-120 {
+        padding-top: 40px;
+    }
+
+    .about_area .section_title {
+        width: 100%;
+        padding-left: 25px;
+    }
+
+    .gallery-section .section_title {
+        width: 100%;
+    }
+
+    .rmt_height {
+        height: 400px;
+    }
+
+    .food_review .section_title {
+        width: 100%;
+        margin-left: 23px;
+        padding-right: 25px;
+        margin-bottom: 40px;
+    }
+
+    .food_review .about_thumb::before {
+        display: none;
+    }
+
+    .footer_aside p {
+        padding-right: 0;
+    }
+
+    .testimonials_content {
+        width: 100%;
+        padding: 70px 0px;
+    }
+
+    .testimonials_review::after {
+        background-position: top;
+    }
+
+    .footer_area {
+        padding-top: 0px;
+    }
+
+    .food_review {
+        padding-top: 60px !important;
+    }
+
+    .hero_section.section-curb::after {
+        display: none;
+    }
+
+    .swiper-slide img {
+        height: auto;
+    }
+
+    .copyright p,
+    .copyright a {
+        font-size: 14px;
+    }
+
+    .footer_menu_items {
+        margin-top: 16px;
+    }
+
+    .footer_menu_items h5 {
+        padding-bottom: 15px;
+    }
+
+    .curb_title h2 {
+        font-size: 60px;
+        padding-left: 10px;
+    }
+
+    .form_area::before {
+        width: 100%;
+        top: 0;
+    }
+
+    .contact_form {
+        padding: 30px;
+        margin-top: 0;
+    }
+
+    .form_area {
+        padding: 40px 0 !important;
+    }
+
+    .hero_wrapp {
+        padding: 100px 0;
+    }
+
+
+
+
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 576px) and (max-width:768px) {
+.rct_address_wrap {
+	display: flex;
+	align-items: center;
+}
+
+    .rmt_contact ul {
+        display: block;
+    }
+
+    #sidemenuarea {
+        display: block;
+        position: absolute;
+        right: 12px;
+        top: 20px;
+    }
+    .primary_menu {
+        display: none;
+    }
+    .footer_aside {
+        margin-bottom: 20px;
+    }
+    .rmt_height1 {
+	height: 200px;
+}
+    
+    
+    
+    
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 768px) and (max-width:991px) {}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 991px) and (max-width: 1200px) {}
