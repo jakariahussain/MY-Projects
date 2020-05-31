@@ -78,7 +78,7 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="copy_right">
-                            <p>Developed By <a target="_blank" href="https://veechitechnologies.com/">Veechi Technologies</a></p>
+                            <p>Copyright 2019<a target="_blank" href=""></a></p>
                         </div>
                     </div>
                 </div>

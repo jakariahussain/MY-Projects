@@ -59,7 +59,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                        <p>All Rights Reserved @ 2019 <a href=""> Veechi Technologies</a></p>
+                        <p>All Rights Reserved @ 2019 <a href=""></a></p>
                     </div>
                 </div>
             </div>

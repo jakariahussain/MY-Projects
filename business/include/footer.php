@@ -46,7 +46,7 @@
             <div class="container">
                 <div class="row">
                     <div class="copyright">
-                        <p>Design & Developed By <a target="_blank" href="https://veechitechnologies.com/">Veechi Technologies</a></p>
+                        <p>Design & Developed By <a target="_blank" href="">2019</a></p>
                     </div>
                 </div>
             </div>

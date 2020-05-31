@@ -44,7 +44,7 @@
     <div class="copyright">
         <div class="container">
             <div class="row  wow fadeIn" data-wow-duration="2s" data-wow-delay=".1s">
-                <p>Devel oped By <a href="https://veechitechnologies.com/" target="_blank">Veechi Technologies</a></p>
+                <p>Devel oped By <a href="" target="_blank">Veechi Technologies</a></p>
             </div>
         </div>
     </div>

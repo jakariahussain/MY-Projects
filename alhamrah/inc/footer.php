@@ -49,7 +49,7 @@
                             <div class="row">
                                 <div class="col-md-12 col-sm-12 col-xs-12 pd-0">
                                     <div class="copyright text-center">
-                                        <p>© Copyright <span>Alhamrah</span> - Developed By <a target="_blank" href="https://veechitechnologies.com/">Veechi Technologies</a></p>
+                                        <p>© Copyright <span></span> - 2019 <a target="_blank" href="#"></a></p>
                                     </div>
                                 </div>
                             </div>
